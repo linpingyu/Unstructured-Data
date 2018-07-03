@@ -1,0 +1,99 @@
+---
+title: "Untitled"
+author: "Linping"
+date: "6/10/2018"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+opts_chunk$set(echo = FALSE,message=FALSE,warning=FALSE)
+read_chunk('Code_v3.r')
+```
+
+```{r load.lib}
+```
+
+```{r read.data}
+```
+
+```{r corpus}
+```
+
+```{r cleaning}
+```
+
+```{r word_tf}
+```
+
+```{r frequency.plot}
+```
+
+```{r}
+p1
+```
+
+##
+
+```{r tf.idf}
+```
+
+##
+
+```{r proportion.plot}
+```
+
+```{r}
+p2
+```
+
+##
+
+```{r word.tf.idf}
+```
+
+```{r}
+p3
+```
+
+## 
+```{r wordcloud1}
+```
+
+##
+```{r wordcloud2}
+```
+
+##
+```{r wordcloud3}
+```
+
+##
+```{r biagramsNetwork}
+```
+
+##
+
+```{r correlation}
+```
+
+```{r}
+cor.it
+```
+
+##
+
+```{r}
+cor.fin
+```
+
+##
+
+```{r}
+cor.health
+```
+
+##
+```{r topic.modelling, eval=FALSE}
+```
+
